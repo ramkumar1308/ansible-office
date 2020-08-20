@@ -11,7 +11,7 @@
       - curl
       - gnupg-agent
       - software-properties-common
-    USER: "your_system_user"
+    USER: "vagrant"
 
   tasks:
   - name: Update apt packages
